@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "usuario")
 public class Usuario {
-
+//prueba
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
